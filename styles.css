@@ -8,8 +8,9 @@ ul {
 
 ul li {
     display: inline;
-    margin: 10px;
+    margin: 18px;
     padding: 10px;
+    text-transform: uppercase;
 }
 
 nav {
@@ -17,8 +18,16 @@ nav {
     color: white;
     font-size: 14px;
     padding: 0px;
-    margin: 0px;
-    position: absolute;
+    margin: 0px; 
     width: 100%;
+    position: absolute;
     top: 0%;
 }
+
+#hero {
+    background-image: url(graduation.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
