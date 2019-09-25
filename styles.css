@@ -6,11 +6,12 @@ ul {
     list-style-type: none;
 }
 
-ul li {
+nav ul li {
     display: inline;
     margin: 18px;
     padding: 10px;
     text-transform: uppercase;
+    vertical-align: middle;
 }
 
 nav {
@@ -25,9 +26,50 @@ nav {
 }
 
 #hero {
-    background-image: url(graduation.jpg);
+    background-image: url(fans.jpg);
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     }
+
+   
+    #heroimg {
+        position: relative;
+        top: 130px;
+        left: 0px
+      }
+
+    #h1 {
+        position: relative;
+        left: 0px;
+        text-shadow: 1px 1px #333;
+        color: white;
+        margin: 300px;
+        bottom: 275px;
+        font-family: 'PT Sans Narrow', sans-serif;
+        text-transform: uppercase;
+        font-style: normal;
+        font-size: 36px;
+
+    }
+
+    #h4 {
+        position: relative;
+        left: 0px;
+        text-shadow: 1px 1px #333;
+        color: white;
+        margin: 300px;
+        bottom: 575px;
+        font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-size: 18px;
+  
+    }
+
+    #shadowbox {
+        height: 800px;
+        width: 800px;
+    }
+
+   
