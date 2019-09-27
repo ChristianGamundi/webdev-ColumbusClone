@@ -72,4 +72,56 @@ nav {
         width: 800px;
     }
 
+    #explorecchs {
+        width: 100vw;
+        height: 400vh;
+    }
    
+    #exploreheader {
+        width: 100vw;
+        height: 81px;
+        background-color: firebrick;
+        text-align: center;
+    }
+
+    #exploresection {
+        width: 100vw;
+        height: 319px;
+        background-color: slateblue;
+    }
+
+    .explorebox {
+        height: 315px;
+        width: 25%;
+        background-color: peru;
+        float: left;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #Hurricane {
+        background-image: url(patriots\ plaza.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #Guidance {
+        background-image: url(college.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #CCNN {
+        background-image: url(ccnn.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #Media {
+        background-image: url(ccnnlive.png);
+        background-position: center;
+        background-size: cover;
+    }
