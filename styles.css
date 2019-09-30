@@ -80,7 +80,7 @@ nav {
     #exploreheader {
         width: 100vw;
         height: 81px;
-        background-color: firebrick;
+        background-color: #10243b;
         text-align: center;
     }
 
@@ -125,3 +125,45 @@ nav {
         background-position: center;
         background-size: cover;
     }
+
+    #glance {
+        width: 100vw;
+        height: 400vh;
+    }
+
+    #glanceheader {
+        width: 100vw;
+        height: 81px;
+        background-color: white;
+        text-align: center;
+    }
+   
+#glancesection {
+        width: 100vw;
+        height: 319px;
+        background-color: slateblue;
+}
+  
+#Money {
+    background-image: url(carosel\ money.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Hat {
+    background-image: url(carosel\ graduation.jpg);
+        background-position: center;
+        background-size: cover;
+}
+
+#Book {
+    background-image: url(book.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Teaching {
+    background-image: url(carosel\ teaching.jpg);
+    background-position: center;
+    background-size: cover;
+}
