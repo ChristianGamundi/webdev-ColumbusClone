@@ -71,11 +71,6 @@ nav {
         height: 800px;
         width: 800px;
     }
-
-    #explorecchs {
-        width: 100vw;
-        height: 400vh;
-    }
    
     #exploreheader {
         width: 100vw;
@@ -126,23 +121,37 @@ nav {
         background-size: cover;
     }
 
-    #glance {
-        width: 100vw;
-        height: 400vh;
-    }
-
-    #glanceheader {
-        width: 100vw;
-        height: 81px;
-        background-color: white;
-        text-align: center;
-    }
+ 
+#glanceheader {
+    width: 100vw;
+    height: 81px;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+}
    
 #glancesection {
         width: 100vw;
-        height: 319px;
-        background-color: black;
+        height: 321px;
+        /* background-color: black; */
 
+}
+
+.glancebox{
+    width: 23%;
+    height: 300px;
+    /* background-color: red; */
+}
+
+#glancecontent{
+    display: inline-block;
+    width: 100%;
+    height: 320px;
+}
+
+#glanceimg{
+    width: 200px;
+    height: 200px;
 }
   
 #Money {
@@ -167,4 +176,8 @@ nav {
     background-image: url(carosel\ teaching.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.left{
+    float: left;
 }
