@@ -1,6 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body {
     font-family: "open sans", "sans-serif";
+    width: 1080px;
 }
+
+/* Navbar */
 
 ul {
     list-style-type: none;
@@ -24,6 +31,8 @@ nav {
     position: absolute;
     top: 0%;
 }
+
+/* Hero Section */
 
 #hero {
     background-image: url(fans.jpg);
@@ -71,6 +80,8 @@ nav {
         height: 800px;
         width: 800px;
     }
+
+    /* Explore Section */
    
     #exploreheader {
         width: 100vw;
@@ -92,10 +103,6 @@ nav {
         float: left;
     }
 
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
 
     #Hurricane {
         background-image: url(patriots\ plaza.jpg);
@@ -121,26 +128,28 @@ nav {
         background-size: cover;
     }
 
+    /* Glance Section */
  
 #glanceheader {
     width: 100vw;
     height: 81px;
     background-color: white;
-    text-align: center;
+    margin: 0 30%;
     font-size: 30px;
 }
    
 #glancesection {
-        width: 100vw;
+        width: 70vw;
         height: 321px;
-        /* background-color: black; */
+        margin: 0 40%;
 
 }
 
 .glancebox{
-    width: 23%;
+    width: 300px;
     height: 300px;
-    /* background-color: red; */
+    text-align: center;
+    margin: 0 auto;
 }
 
 #glancecontent{
@@ -149,9 +158,13 @@ nav {
     height: 320px;
 }
 
-#glanceimg{
+#glanceimg img{
     width: 200px;
     height: 200px;
+}
+
+#glancestat{
+    color: red;
 }
   
 #Money {
@@ -178,6 +191,20 @@ nav {
     background-size: cover;
 }
 
-.left{
+.left {
     float: left;
+}
+
+.right {
+    float: right;
+}
+
+#courses {
+    background-color: #10243b;
+    color: white;
+    height: 100px;
+    width: 1000px;
+    margin: 0 auto;
+   text-align: center;
+   
 }
