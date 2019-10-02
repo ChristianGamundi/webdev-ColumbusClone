@@ -199,12 +199,86 @@ nav {
     float: right;
 }
 
+.middle {
+    float: middle;
+}
+
 #courses {
     background-color: #10243b;
     color: white;
     height: 100px;
-    width: 1000px;
+    width: 1125px;
     margin: 0 auto;
    text-align: center;
-   
+   float: left;
+}
+
+/* College Section */
+
+#college {
+    width: 70vw;
+    height: 321px;
+    margin: 0 40%;
+}
+
+#collegebox {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    float: middle;
+}
+
+#collegecontent {
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+/* Footer */
+
+#footercontent {
+    height: 300px;
+    background-color: #333;
+    color: white;
+    font-size: 0.1em;
+}
+
+#cchsmission {
+   margin-top: 1%;
+   margin-left: 3.5%
+   color: grey;
+   width: 60%;
+}
+
+#footer {
+height: 400px;
+width: 2000px;
+font-size: 30px;
+float: left;
+}
+
+#footernavbar {
+    background-color: #10243b;
+    height: 
+}
+
+#footernav ul {
+    margin: 0px 250px;
+    padding: 18px 0;
+}
+
+#footernav ul li {
+    display: inline;
+    margin: 0 20px;
+    color: white;
+    font-size: 15px;
+}
+
+#footertext {
+    color: #ddd;
+    padding-top: 1%;
+    padding-left: 2%;
+    font-size: 20px;
 }
