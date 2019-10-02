@@ -248,8 +248,12 @@ nav {
 #cchsmission {
    margin-top: 1%;
    margin-left: 3.5%
-   color: grey;
-   width: 60%;
+
+}
+
+#cchsinfo {
+    margin-top: 1%;
+    margin-left: 1%;
 }
 
 #footer {
@@ -261,6 +265,7 @@ float: left;
 
 #footernavbar {
     background-color: #10243b;
+    color: white;
 }
 
 #footernav ul {
@@ -273,6 +278,7 @@ float: left;
     margin: 0 20px;
     color: white;
     font-size: 15px;
+    float: right;
 }
 
 #footertext {
@@ -280,4 +286,13 @@ float: left;
     padding-top: 1%;
     padding-left: 2%;
     font-size: 20px;
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
